@@ -10,10 +10,10 @@ end
 def summon_captain_planet(array)# code an argument here
   # Your code here
   # binding.pry
-  array.map do |var|
+  arr = array.map do |var|
     var.capitalize  
   end
-  
+  return arr
 end
 
 def long_planeteer_calls(array)# code an argument here
