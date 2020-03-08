@@ -29,7 +29,7 @@ end
 def find_the_cheese(array)# code an argument here
   # the array below is here to help
  array.each do |var|
-    if var == "cheddar" || var == "gouda" || var == ""
+    if var == "cheddar" || var == "gouda" || var == "camembert"
       return var
     end
  end
