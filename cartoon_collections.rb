@@ -28,5 +28,10 @@ end
 
 def find_the_cheese(array)# code an argument here
   # the array below is here to help
- 
+ array.each do |var|
+    if var == ""
+      return var
+    end
+ end
+ return nil
 end
