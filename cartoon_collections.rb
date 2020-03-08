@@ -11,7 +11,7 @@ def summon_captain_planet(array)# code an argument here
   # Your code here
   # binding.pry
   array.map do |var|
-      
+    var.capitalize  
   end
   
 end
