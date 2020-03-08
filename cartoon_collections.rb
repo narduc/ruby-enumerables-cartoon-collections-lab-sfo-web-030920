@@ -3,7 +3,7 @@ def roll_call_dwarves(array)# code an argument here
   # Your code here
     array.each_with_index do |var, idx|
     var_idx = idx + 1
-    puts var_idx, var
+    puts "#{var_idx} #{var}"
   end
 end
 
